@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FolioX - Namchon Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="bg-stars" aria-hidden="true"></div>
+  <div class="bg-orbit" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon">F</span>
+        <span class="logo-text">FolioX</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#service" class="nav-link">Service</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 class="hero-name">
+          <span class="name-first">Namchon</span>
+          <span class="name-last">Smith</span>
+        </h1>
+        <p class="hero-subtitle">Web Designer based in New York</p>
+        <a href="#contact" class="btn btn-primary">Get Connected</a>
+      </div>
+      <div class="hero-image">
+        <div class="profile-circle">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face" alt="James Smith 프로필 사진">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="service">
+    <div class="container">
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+          <h3 class="service-title">Deeper Skillset</h3>
+          <p class="service-desc">Kernan ipsum dolor amet space odio sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3 class="service-title">Creative Work</h3>
+          <p class="service-desc">Kernan ipsum dolor amet space odio sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h3 class="service-title">Strong Dedication</h3>
+          <p class="service-desc">Kernan ipsum dolor amet space odio sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">A Passionate Developer Who Loves to Code</h2>
+      </div>
+
+      <div class="about-inner">
+        <div class="about-visual">
+          <div class="about-images">
+            <div class="about-main-img">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=550&fit=crop" alt="James Smith">
+            </div>
+            <div class="about-inset-img">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=300&h=200&fit=crop" alt="작업 중인 모습">
+            </div>
+            <div class="about-badge">
+              <i class="fas fa-award"></i>
+            </div>
+          </div>
+          <div class="about-counter">
+            <span class="counter-number" data-target="12">0</span>
+            <div class="counter-text">
+              <span class="counter-bar"></span>
+              <span>Successful<br>Years</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <h3 class="about-heading">About Me</h3>
+          <p class="about-desc">
+            I am a passionate web designer and developer with over 12 years of experience creating beautiful, functional websites. My expertise spans UI/UX design, front-end development, and responsive web solutions. I believe in crafting digital experiences that not only look stunning but also deliver exceptional user experiences.
+          </p>
+
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-label">Name</span>
+              <span class="info-value">Alex Walker</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Address</span>
+              <span class="info-value">20, Roadway, Dhaka</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Email</span>
+              <span class="info-value">hello@foliox.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-value">Master</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Phone</span>
+              <span class="info-value">+123 456 7890</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Freelance</span>
+              <span class="info-value available">Available</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-primary">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placeholder sections for nav links -->
+  <section class="placeholder-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">My Recent Works</h2>
+      </div>
+      <p class="placeholder-text">포트폴리오 섹션 — 프로젝트를 추가해 보세요.</p>
+    </div>
+  </section>
+
+  <section class="placeholder-section" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Blog</span>
+        <h2 class="section-title">Latest Articles</h2>
+      </div>
+      <p class="placeholder-text">블로그 섹션 — 글을 추가해 보세요.</p>
+    </div>
+  </section>
+
+  <section class="placeholder-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <p class="placeholder-text">연락처 섹션 — 폼을 추가해 보세요.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 FolioX. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
