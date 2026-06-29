@@ -285,16 +285,6 @@ img {
   margin-bottom: 16px;
 }
 
-.name-first {
-  display: block;
-  color: var(--text-white);
-}
-
-.name-last {
-  display: block;
-  color: var(--accent);
-}
-
 .hero-subtitle {
   font-size: 1.1rem;
   color: var(--text-light);
